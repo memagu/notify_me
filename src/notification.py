@@ -59,8 +59,14 @@ class NotificationManager:
         msg = input("Enter notification message: ")
 
         while True:
+            due_date_prompt = input("Enter notification due date (YYYY-MM-DD hh:mm), default is now: ")
+
+            if not due_date_prompt:
+                due_date = datetime.now()
+                break
+
             try:
-                due_date = datetime.strptime(input("Enter notification due date (YYYY-MM-DD HH:MM): "), "%Y-%m-%d %H:%M")
+                due_date = datetime.strptime(due_date_prompt, "%Y-%m-%d %H:%M")
                 break
             except ValueError:
                 print("Invalid date format, try again.")
