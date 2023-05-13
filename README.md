@@ -15,9 +15,9 @@ A simple interactive CLI application for managing automatic notifications on Win
        $ .\venv\Scripts\activate
        $ pip install -r requirements.txt
        $ deactivate
-       
+
    or by running this command:
-       
+
        $ py -m venv venv && .\venv\Scripts\activate && pip install -r requirements.txt && deactivate
 
 ## Usage
