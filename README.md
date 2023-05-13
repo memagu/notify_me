@@ -13,3 +13,7 @@ A simple interactive CLI application for managing automatic notifications on Win
 4. While in the activated venv run notify_me using the following command in a terminal or command prompt:
 
     `$ py .\src\notify_me.py`
+
+## Contribution
+
+Feel free to contribute to this project!
