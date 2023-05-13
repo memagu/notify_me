@@ -50,5 +50,5 @@ class MenuManager:
         self.state = initial_state
         self.transition_map = transition_map
 
-    def transition(self, index: int = 0):
+    def transition(self, index: int = 0) -> None:
         self.state = self.transition_map[(self.state, index)]

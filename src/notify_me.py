@@ -7,7 +7,7 @@ from notification import NotificationManager
 import notify
 
 
-def main():
+def main() -> None:
     menu_manager = MenuManager()
     notification_manager = NotificationManager(PROJECT_ROOT / "resources/notifications.pkl")
 
