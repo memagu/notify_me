@@ -18,7 +18,7 @@ class NotificationData:
         return Notification(
             app_id=APP_NAME,
             title=f"{self.title} | {self.due_date.strftime('%Y-%m-%d %H:%M')}",
-            msg=f"{self.msg}\n\nDue in: {self.due_date - datetime.now()}",
+            msg=f"{self.msg}\n\nCountdown: {self.due_date - datetime.now()}",
             icon=PROJECT_ROOT / "resources/icon.png",
             duration="short"
         )
