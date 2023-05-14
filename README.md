@@ -7,6 +7,7 @@ A simple interactive CLI application for managing automatic notifications on Win
 Running **notify_me** requires:
 
 * [Python](https://www.python.org/downloads/ "Download Python") 3.10+
+* Windows 10+
 
 ## Installation
 
