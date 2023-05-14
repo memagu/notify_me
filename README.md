@@ -8,7 +8,7 @@ Running **notify_me** requires:
 
 * Python 3.7+
 
-## Installation guide
+## Installation
 
 1. Clone this repository to your local machine.
 
