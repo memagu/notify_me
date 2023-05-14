@@ -2,6 +2,12 @@
 
 A simple interactive CLI application for managing automatic notifications on Windows.
 
+## Requirements
+
+Running **notify_me** requires:
+
+* Python 3.7+
+
 ## Installation guide
 
 1. Clone this repository to your local machine.
